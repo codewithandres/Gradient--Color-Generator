@@ -23,9 +23,9 @@ const generateGradient = (isRamdom) => {
 }
 const copyCode = () => {
     navigator.clipboard.writeText(textarea.value)
-    copyBtn.innerText = 'codigo copiado';
+    copyBtn.innerHTML = '<i class="ri-file-copy-fill"></i>';
     setTimeout(() => {
-        copyBtn.innerText = 'copiar Codigo';
+        copyBtn.innerHTML = 'copiar Codigo <i class="ri-file-copy-line"></i>';
     }, 1600);
 }
 

@@ -5,6 +5,16 @@
     font-style: normal;
 }
 
+.protest-revolution-regular {
+    font-family: "Protest Revolution", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h1 {
+    font-size: 3.5rem;
+}
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -18,8 +28,7 @@ body {
     height: 100vh;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    background: #808080;
-    background: linear-gradient(to top, #3fada8, #808080);
+    background: linear-gradient(to left top, #030303, #271448);
     color: white;
 }
 
