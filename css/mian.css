@@ -1,0 +1,116 @@
+.raleway {
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background: #808080;
+    background: linear-gradient(to top, #3fada8, #808080);
+    color: white;
+}
+
+.wrapper {
+    width: 100%;
+    max-width: 450px;
+    padding: 25px;
+    border-radius: 5px;
+    background: #141E30;
+    background: linear-gradient(to top, #243B55, #141E30);
+}
+
+.wrapper .gradient-box {
+    width: 100%;
+    height: 220px;
+    background: linear-gradient(to right, #1d4350, #a43931);
+    border-radius: 7px;
+}
+
+.wrapper .rows {
+    display: flex;
+    margin: 20px 0;
+    justify-content: space-between;
+}
+
+.rows :where(.colum, button) {
+    width: calc(100% / 2 -12px)
+}
+
+.option p {
+    font-size: 1.12rem;
+    margin-bottom: 8px;
+}
+
+.option .selectet-box {
+    border: 1px solid #aaa;
+    padding: 7px 15px;
+    border-radius: 5px;
+    background-color: azure;
+}
+
+.selectet-box select {
+    width: 100%;
+    border: none;
+    outline: none;
+    background: none;
+    ;
+    font-size: .9rem;
+}
+
+.option .color {
+    margin-left: 60px;
+
+}
+
+.color input {
+    height: 41px;
+    width: calc(100% / 2 -20px);
+}
+
+.color input:last-child {
+    margin-left: 6px;
+}
+
+.wrapper textarea {
+    width: 100%;
+    color: #ccc;
+    background-color: #1d4350;
+    border-radius: 6px;
+    padding: 10px 15px;
+    border: 1px solid #ccc;
+    font-family: "Raleway", sans-serif;
+    resize: none;
+    font-size: .9rem;
+}
+
+.botton button {
+    padding: 9px 15px;
+    font-size: 1rem;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    color: azure;
+    cursor: pointer;
+}
+
+.botton .refresh {
+    border: 2px solid #f7f7f7;
+    background-color: transparent;
+}
+
+.botton .copy {
+    background: linear-gradient(to right, #0072ff, #00c6ff);
+}
